@@ -4,6 +4,11 @@
 [![license](https://img.shields.io/github/license/long2ice/fastapi-cache)](https://github.com/long2ice/fastapi-cache/blob/main/LICENSE)
 [![CI/CD](https://github.com/long2ice/fastapi-cache/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/long2ice/fastapi-cache/actions/workflows/ci-cd.yml)
 
+## NOTES
+
+This is a temporal fork of fastapi-cache to make things work in longevity-genie projects. 
+The reason for this fork is that it seems like original maintainer gave up (I hope temporary)  on maintaining fastapi-cache, does not merge PR-s and the library became not compartible with modern dependencies and has a stipid restriction of caching only GET requests.
+
 ## Introduction
 
 `fastapi-cache` is a tool to cache FastAPI endpoint and function results, with
